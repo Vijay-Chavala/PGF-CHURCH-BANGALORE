@@ -1,0 +1,28 @@
+.imageRow {
+    margin-bottom: 20px; 
+    justify-content: center;
+  }
+  
+  .imageContainer {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); /* Add a shadow */
+    margin-bottom: 20px; /* Add some margin between columns */
+    overflow: hidden; /* Ensure images don't overflow the container */
+    width: 300px;
+    height: 200px;  
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.imageContainer img {
+    width: 100%; /* Ensure images fill their container */
+    height: 100%;
+    padding: 5px;
+    object-fit: cover; 
+    transition: all 0.9s ease-in-out;
+
+} 
+.imageContainer img:hover {
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+  
