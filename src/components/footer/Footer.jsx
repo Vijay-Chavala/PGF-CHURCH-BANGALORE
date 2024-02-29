@@ -51,7 +51,7 @@ const Footer = () => {
           <h5>Map Location</h5>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9301576952903!2d77.74633827507654!3d12.97631888733947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0f30e3c39fff%3A0xe54558584c087ca8!2sPGF-Whitefield!5e0!3m2!1sen!2sin!4v1709172618220!5m2!1sen!2sin"
-            width="600"
+            width="100%"
             height="300"
             allowFullScreen=""
             loading="lazy"

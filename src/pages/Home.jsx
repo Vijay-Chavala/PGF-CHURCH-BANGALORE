@@ -13,10 +13,11 @@ const Home = () => {
         showThumbs={false}
         showStatus={false}
         infiniteLoop={true}
-        // emulateTouch
-        // autoPlay
+        // emulateTouch={false}
+        autoPlay
         showIndicators={false}
         useKeyboardArrows={true}
+        swipeable={false} // Disable swipe actions
         transitionTime={2000}
         // axis="vertical"
         // selectedItem={imgPosition}

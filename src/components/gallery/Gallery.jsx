@@ -16,27 +16,27 @@ const Gallery = () => {
         </Col>
       </Row>
       <Row className={styles.imageRow}>
-        <Col xs={12} sm={4}>
+        <Col xs={12} sm={4} className="text-center">
           <div className={styles.imageContainer}>
             <img src={PGF4} alt={"PGF4"} className="img-fluid" />
           </div>
         </Col>
-        <Col xs={12} sm={4}>
+        <Col xs={12} sm={4} className="text-center">
           <div className={styles.imageContainer}>
             <img src={PGF5} alt={"PGF5"} className="img-fluid" />
           </div>
         </Col>
-        <Col xs={12} sm={4}>
+        <Col xs={12} sm={4} className="text-center">
           <div className={styles.imageContainer}>
             <img src={PGF6} alt={"PGF6"} className="img-fluid" />
           </div>
         </Col>
-        <Col xs={12} sm={4}>
+        <Col xs={12} sm={4} className="text-center">
           <div className={styles.imageContainer}>
             <img src={PGF7} alt={"PGF7"} className="img-fluid" />
           </div>
         </Col>
-        <Col xs={12} sm={4}>
+        <Col xs={12} sm={4} className="text-center">
           <div className={styles.imageContainer}>
             <img src={PGF8} alt={"PGF8"} className="img-fluid" />
           </div>
