@@ -56,7 +56,8 @@ const Footer = () => {
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>{" "}
+            title="PGF Map "
+          ></iframe>
         </Col>
       </Row>
     </Container>

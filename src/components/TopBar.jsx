@@ -16,7 +16,7 @@ function TopBar() {
     <Navbar bg="gray" expand="lg" className={styles.navbar}>
       <Container>
         <Navbar.Brand className="py-0" as={Link} to="/">
-          <img width={50} height={50} src={Logo} />
+          <img width={50} height={50} src={Logo} alt="PGF logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
